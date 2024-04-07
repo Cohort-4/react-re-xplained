@@ -1,0 +1,12 @@
+.footerContainer {
+  background-color: dodgerblue;
+  color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerContent {
+  display: flex;
+  align-items: center;
+}
