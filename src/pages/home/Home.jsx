@@ -1,6 +1,8 @@
+import Button from "../../components/button/Button";
+import styles from "./home.module.css"
 const Home = () => {
   return (
-    <div>
+    <section className={styles.homeContainer}>
       <h1>This is Homepage site</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
@@ -15,7 +17,9 @@ const Home = () => {
         reprehenderit illum illo quos et omnis odit eos, quo expedita magnam ut
         quas pariatur sunt quam, beatae explicabo?
       </p>
-    </div>
+      {/* <button className={styles.btn}>Learn More</button> */}
+      <Button text="Learn More" />
+    </section>
   );
 };
 export default Home;

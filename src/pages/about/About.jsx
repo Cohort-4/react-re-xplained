@@ -1,3 +1,6 @@
+import Button from "../../components/button/Button";
+// import styles from "./about.module.css"
+
 const About = () => {
   return (
     <div>
@@ -16,6 +19,7 @@ const About = () => {
         accusantium error, minima facilis nostrum. Accusantium iste repellat
         veniam?
       </p>
+      <Button text="Click to learn about us"/>
     </div>
   );
 };
